@@ -19,11 +19,11 @@ public class CumLaude {
 			System.out.println("Vigane hindesisestus");
 			return;
 		}
-		
+
 		if (keskhinne > 4.5 && keskhinne <= 5 && lpuhinne == 5) {
 			System.out.println("Jah, saad cum laude diplomile!");
-		} else if (keskhinne < 4.5 || lpuhinne < 5 && lpuhinne >0) {
+		} else if (keskhinne < 4.5 || lpuhinne < 5 && lpuhinne > 0) {
 			System.out.println("Ei saa!");
-		} 
+		}
 	}
 }

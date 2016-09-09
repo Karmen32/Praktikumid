@@ -24,8 +24,6 @@ public class CumLaude {
 			System.out.println("Jah, saad cum laude diplomile!");
 		} else if (keskhinne < 4.5 || lpuhinne < 5 && lpuhinne >0) {
 			System.out.println("Ei saa!");
-		} else {
-			System.out.println("Vigane hindesisestus");
-		}
+		} 
 	}
 }

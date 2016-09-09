@@ -4,12 +4,12 @@ import praktikum1.TextIO;
 
 public class Parool {
 	public static void main(String[] args) {
-		System.out.println("Sisesta parool");
-		String oigeparool = "KavalRebane";
+
+		String oigeparool = "KavalRebane1";
 
 		while (true) {
+			System.out.println("Sisesta parool");
 			String sisestatudParool = TextIO.getlnString();
-
 			if (oigeparool.equals(sisestatudParool)) {
 				System.out.println("Õige parool");
 				break;

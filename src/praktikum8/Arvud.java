@@ -11,8 +11,8 @@ public class Arvud {
 			System.out.println("Palun sisesta arv " + i);
 			arvud[i] = TextIO.getlnInt();
 		}
-		for (int i= arvud.length -1; i >=0; i--)
-			System.out.println(arvud [i]);
+		for (int i = arvud.length - 1; i >= 0; i--) {
+			System.out.println(arvud[i]);
+		}
 	}
-	
 }
